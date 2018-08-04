@@ -55,6 +55,8 @@ It's same as my dvorak keymap on Atreus and Planck.
 
 ## Note
 
+### Crossdev
+
 On Funtoo, use gcc 4.9.2 (from Gentoo's ebuilds in `/usr/portage`)  
 as `cross-avr/gcc`.  
 
@@ -81,6 +83,17 @@ lrwxrwxrwx 1 root root   32 Aug  4 07:25 files -> /usr/portage/sys-devel/gcc/fil
 -rw-r--r-- 1 root root 1520 Aug  4 07:52 gcc-4.9.2.ebuild
 -rw-r--r-- 1 root root 1870 Aug  4 07:52 Manifest
 ```
+
+### Xmodmap
+
+```zsh
+% cat ~/.Xmodmap.helix
+! Multi_key
+!! Helix
+keycode 133 = Multi_key
+```
+
+You can paste the content of clipboard on X11 with `Super` (on Lower).
 
 ## License
 
