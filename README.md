@@ -1,9 +1,10 @@
 # GHC
 
-**G**rauwoelfchen's dvorak keymaps and settings for **H**elix keyboard **C**ustomization.
+**G**rauwoelfchen's dvorak keymaps and settings for **H**elix keyboard **C**ustomization.  
+It's same as my dvorak keymap on Atreus and Planck.
 
 ```
-# Layer 0
+# Default
 ,-----------------------------------------.               ,-----------------------------------------.
 |      |  '   |  ,   |  .   |  P   |  Y   |               |   F  |   G  |   C  |   R  |   L  |      |
 |------+------+------+------+------+------|               |------+------+------+------+------+------|
