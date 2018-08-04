@@ -41,7 +41,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |------+------+------+------+------+------|               |------+------+------+------+------+------|
    * |      |  ;   |  Q   |  J   |  K   |  X   |               |   B  |   M  |   W  |   V  |   Z  |      |
    * |------+------+------+------+------+------+------- -------+------+------+------+------+------+------|
-   * |      | Esc  |      |      | Shft | Bksp | Ctrl | |  Alt | Spce | Lowr |   _  |   /  | Entr |      |
+   * |      | Esc  |  Tab |      | Shft | Bksp | Ctrl | |  Alt | Spce | Lowr |   _  |   /  | Entr |      |
    * `------------------------------------------------- -------------------------------------------------'
    */
   [_DVORAK] = LAYOUT( \
@@ -58,14 +58,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
    * |------+------+------+------+------+------|               |------+------+------+------+------+------|
    * |      |  %   |  ^   |  [   |  ]   |  ~   |               |   &  |   1  |   2  |   3  |   \  |      |
    * |------+------+------+------+------+------+------- -------+------+------+------+------+------+------|
-   * |      | Rais | Tab  |      |      |      | Ctrl | |  Alt |      | Rset |      |   0  |   =  |      |
+   * |      | Rais | Supr |      |      |      | Ctrl | |  Alt |      | Rset |      |   0  |   =  |      |
    * `------------------------------------------------- -------------------------------------------------'
    */
   [_LOWER] = LAYOUT( \
     XXXXXXX, DV_EXLM, DV_AT,   DV_LCBR, DV_RCBR, DV_PIPE,                   KC_PGUP, DV_7,    DV_8,    DV_9,    DV_ASTR, XXXXXXX, \
     XXXXXXX, DV_HASH, DV_DLR,  DV_LPRN, DV_RPRN, DV_GRV,                    KC_PGDN, DV_4,    DV_5,    DV_6,    DV_PLUS, XXXXXXX, \
     XXXXXXX, DV_PERC, DV_CIRC, DV_LBRC, DV_RBRC, DV_TILD,                   DV_AMPR, DV_1,    DV_2,    DV_3,    DV_BSLS, XXXXXXX, \
-    XXXXXXX, RAISE,   KC_TAB,  _______, _______, _______, KC_LCTL, KC_LALT, _______, RESET,   _______, DV_0,    DV_EQL,  XXXXXXX  \
+    XXXXXXX, RAISE,   KC_LGUI, _______, _______, _______, KC_LCTL, KC_LALT, _______, RESET,   _______, DV_0,    DV_EQL,  XXXXXXX  \
   ),
   /* Raise
    * ,-----------------------------------------.               ,-----------------------------------------.
@@ -82,7 +82,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     XXXXXXX, _______, _______, KC_UP,   _______, _______,                   _______, KC_F7,   KC_F8,   KC_F9,   _______, XXXXXXX, \
     XXXXXXX, _______, KC_LEFT, KC_DOWN, KC_RGHT, _______,                   _______, KC_F4,   KC_F5,   KC_F6,   _______, XXXXXXX, \
     XXXXXXX, _______, _______, _______, _______, _______,                   _______, KC_F1,   KC_F2,   KC_F3,   _______, XXXXXXX, \
-    XXXXXXX, RESET,   KC_TAB,  _______, _______, _______, KC_LCTL, KC_LALT, _______, RESET,   _______, _______, _______, XXXXXXX  \
+    XXXXXXX, RESET,   _______, _______, _______, _______, KC_LCTL, KC_LALT, _______, RESET,   _______, _______, _______, XXXXXXX  \
   )
 };
 
